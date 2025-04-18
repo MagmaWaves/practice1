@@ -5,7 +5,9 @@ public class StarterScript : MonoBehaviour
     [SerializeField] int myNumber;
     [SerializedField] string myName;
     [SerializedField] bool myChoice;
-    [SerializedField] GameObject myGate;
+    [SeralizedField] GameObject myGate;
+    [SeralizedField] int randomNumber;
+    //why [] and why is it not highlighted green
 
     void Start()
     {
